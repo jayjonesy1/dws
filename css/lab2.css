@@ -1,0 +1,48 @@
+			body {
+				background-color: silver;
+			}
+			
+			h1, h2, h3{
+				color: blue;
+				font-weight: bold;
+				font-family: "helvetica neue";
+				text-align: center;
+				text-decoration: underline;
+				text-shadow: 2px 2px 2px #111;
+				text-transform: uppercase;
+			}
+			
+			p {
+				line-height: 1.5;
+				letter-spacing: 2px;
+				word-spacing: 5px;
+				text-indent: 2px;
+			}
+			
+			li{
+				color: red;
+				font-size: 16px;
+			}
+			
+			ul{
+				list-style-type: square;
+				font-style: italic;
+			}
+
+			#image {
+				opacity: .50;
+				vertical-align: middle;
+			}
+			
+			#footer {
+				font-variant: small-caps;
+			}
+			
+			a:hover{
+				color: red;
+			}
+			
+			p:first-letter{
+				color: brown;
+				font: italic bold 30px/1.5 verdana, arial, helvetica, sans-serif;
+			}
