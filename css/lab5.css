@@ -1,0 +1,164 @@
+			body {
+				font: 100%/1.5 helvetica;
+				color: #3e3e3e;
+				background-color: #f3f3f3;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#main-content{
+				width: 60%;
+				margin: 0 auto;
+			}
+
+			h1 {
+				float: left;
+			}
+			
+			h1, h2, h3{
+				font-family: "Della Respira", serif;
+			}
+
+			ul#gallery {
+				margin: 5.102040% auto;
+				width: 100%;
+			}
+			
+			ul#gallery li{
+				width: 30%;
+				list-style-type: none;
+				float: left;
+			}
+						
+			ul#nav{
+				margin-left: auto;
+				margin-right: 0;
+				width: 40.816326%;
+				list-style-type: none;
+				float: right;
+			}
+
+			ul#nav li{
+				width: 25%; 
+				float: left;
+			}
+
+			ul#nav a{
+				background: #f3f3f3;
+				color: #3e3e3e;
+				height: 50px;
+				line-height: 50px;
+				display: block;
+				text-align: center;
+				text-transform: capitalize;
+			}
+
+			ul#nav a:hover{
+				background: #3e3e3e;
+				color: #f3f3f3;
+			}
+			
+			section {
+				-moz-column-count: 2;
+				margin-bottom: 10px;
+				clear: left;
+			}
+						
+			h3 {
+				clear: left;
+			}
+			
+			#sinbad {
+				float: left;
+				margin-right: 20px;
+			}
+			
+			img{
+				max-width: 100%;
+			}
+
+/*---------------------Media Queries-----------------------*/			
+			
+			@media screen and (max-width: 1210px) {
+				ul#nav{
+					width: 55%;
+				}
+				
+				ul#gallery li{
+					width: 30%;
+				}
+			}
+			
+			
+			@media screen and (max-width: 912px) {
+				ul#nav{
+					width: 70%;
+				}
+				
+				h1 {
+					width: 20%;
+				}
+				
+				#main-content{
+					width: 90%;
+				}
+
+			}
+			
+			@media screen and (max-width: 714px) {
+				ul#nav{
+					width: 80%;
+				}
+				
+				h1 {
+					width: 5%;
+				}
+				
+				#main-content{
+					width: 90%;
+				}
+				
+				p{
+					font-size: .75em
+				}
+			}
+			
+			@media screen and (max-width: 605px) {
+				
+				ul#nav{
+					width: 100%;
+					margin: 5% auto;
+				}
+				
+				h1 {
+					margin-top: 0;
+					width: 100%;
+					float: none;
+				}
+
+				#main-content{
+					width: 90%;
+				}
+				
+				ul#gallery li{
+					width: 100%;
+				}
+
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
